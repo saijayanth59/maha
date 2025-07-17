@@ -1,2 +1,38 @@
-.env
-.venv
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+venv/
+env/
+pip-wheel-metadata/
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.venv/
+
+# Logs and Reports
+logs/
+*.log
+*.txt # If temporary text reports are generated outside of logs/
+*.html # If temporary HTML reports are generated outside of logs/
+
+# Configuration (Sensitive Data)
+.env # Crucial for environment variables like API keys, passwords
+
+# IDE and Editor specific files
+.idea/ # PyCharm project files
+.vscode/ # VS Code project settings (can be committed if shared, but often personal)
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
